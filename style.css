@@ -6,6 +6,81 @@ body {
   font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
+/* Header styling */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+  padding: 20px;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+header h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 42px;
+  margin: 0;
+}
+
+/* Navigation styling */
+nav {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+nav a {
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  color: #333;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #f0f0f0;
+}
+
+/* Responsive design for small screens */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  header h1 {
+    font-size: 32px;
+  }
+
+  nav {
+    justify-content: center;
+    gap: 15px;
+  }
+
+  nav a {
+    font-size: 14px;
+    padding: 6px 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  header h1 {
+    font-size: 24px;
+  }
+
+  nav {
+    gap: 10px;
+  }
+
+  nav a {
+    font-size: 12px;
+    padding: 5px 8px;
+  }
+}
+
 /* Typography */
 
 /* Links & Accents */
