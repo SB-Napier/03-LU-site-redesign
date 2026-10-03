@@ -1,0 +1,8 @@
+{
+  "name": "Fran's Flowers",
+  "description": "Boutique flower shop in San Francisco offering weekly floral specials and community bouquets.",
+  "permissions": [],
+  "capabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
